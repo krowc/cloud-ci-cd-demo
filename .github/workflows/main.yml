@@ -19,3 +19,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
+
+      - name: Use Secret
+        run: echo "Secret stored safely"
+      
